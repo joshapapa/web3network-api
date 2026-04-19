@@ -11,8 +11,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://web3networks.org",
+      "https://www.web3networks.org",
 
     ],
     credentials: true,
